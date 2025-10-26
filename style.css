@@ -1,0 +1,40 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 40px;
+}
+
+/* 1. Feature section layout */
+.feature-section {
+  display: flex;                /* Enables Flexbox */
+  justify-content: space-between;
+  gap: 20px;                    /* Adds space between columns */
+}
+
+/* 2. Feature items styling */
+.feature-item {
+  flex: 1;                      /* Equal width columns */
+  background-color: #e0f7fa;    /* Light blue background */
+  border: 1px solid #00bcd4;    /* Border color */
+  padding: 15px;                /* Internal spacing */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+/* 3. Hover effect (optional enhancement) */
+.feature-item:hover {
+  transform: scale(1.05);
+}
+
+/* 4. Text styling */
+.feature-item h2 {
+  margin-top: 0;
+  color: #00796b;
+}
+
+.feature-item p {
+  color: #555;
+}
